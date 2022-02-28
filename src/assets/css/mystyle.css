@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Round');
+
+
+.form-control{
+    border:  1px solid #d2d6da;
+}
+.form-control:focus{
+    outline:1px solid #d2d6da;
+}
+
+.btntable {
+    font-size: 2rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  .btntable.info {
+    color: orangered;
+  }
+  .btntable.blue {
+    color: rgb(0, 132, 255);
+  }
+  .btntable.delete {
+    color: red;
+  }
+  .btntable:hover {
+    transform: scale(1.2);
+    color: grey !important;
+  }
