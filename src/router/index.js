@@ -7,6 +7,9 @@ import Trips from '../views/pages/Trips/index.vue'
 import contentdashboard from '../views/pages/Dashboard.vue'
 import about from '../views/About.vue'
 import team from '../views/pages/Teams'
+import testimoni from '../views/pages/Testimoni/index.vue'
+import gallery from '../views/pages/Gallery/index.vue'
+
 Vue.use(VueRouter)
 const routes = [
   {
@@ -38,6 +41,17 @@ const routes = [
         path: '/team',
         name: 'team',
         component:team
+      }
+      ,
+      {
+        path: '/testimoni',
+        name: 'testimoni',
+        component:testimoni
+      },
+      {
+        path: '/gallery',
+        name: 'gallery',
+        component:gallery
       }
     ]
   },

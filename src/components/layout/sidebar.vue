@@ -50,6 +50,26 @@
           </router-link>
         </li>
         <li class="nav-item">
+          <router-link active-class="active" class="nav-link text-white" to="/testimoni">
+            <div
+              class="text-white text-center me-2 d-flex align-items-center justify-content-center"
+            >
+              <i class="material-icons opacity-10">table_view</i>
+            </div>
+            <span class="nav-link-text ms-1">OUR TESTIMONI</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
+          <router-link active-class="active" class="nav-link text-white" to="/gallery">
+            <div
+              class="text-white text-center me-2 d-flex align-items-center justify-content-center"
+            >
+              <i class="material-icons opacity-10">table_view</i>
+            </div>
+            <span class="nav-link-text ms-1">OUR GALLERY</span>
+          </router-link>
+        </li>
+        <li class="nav-item">
           <router-link active-class="active" class="nav-link text-white" to="/trips">
             <div
               class="text-white text-center me-2 d-flex align-items-center justify-content-center"
@@ -128,16 +148,7 @@
         </li>
       </ul>
     </div>
-    <div class="sidenav-footer position-absolute w-100 bottom-0">
-      <div class="mx-3">
-        <a
-          class="btn bg-gradient-primary mt-4 w-100"
-          href="https://www.creative-tim.com/product/material-dashboard-pro?ref=sidebarfree"
-          type="button"
-          >Upgrade to pro</a
-        >
-      </div>
-    </div>
+    
   </aside>
 </template>
 
