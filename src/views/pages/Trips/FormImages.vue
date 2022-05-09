@@ -4,14 +4,14 @@
       object="#ff9633"
       color1="#ffffff"
       color2="#17fd3d"
-      size="17"
-      speed="1.1"
+      size="5"
+      speed="2"
       bg="#343a40"
-      v-if="loading"
       objectbg="#999793"
       opacity="80"
       disableScrolling="false"
-      name="dots"
+      name="circular"
+      v-if="loading"
     ></loader>
     <div
       @click="onselect"
